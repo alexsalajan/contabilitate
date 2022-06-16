@@ -1,13 +1,12 @@
 /** **********************
-node index.js ./input.csv 
+node index.js
 ************************** */
 
 const fs = require('fs');
-const { parse } = require('csv-parse');
-const { js2xml } = require('xml-js');
+const readXlsxFile = require('read-excel-file/node');
 const moment = require('moment');
+const { js2xml } = require('xml-js');
 
-const inputFile = process.argv[2];
 const facturi = [];
 
 // Date furnizor
@@ -19,18 +18,19 @@ const FurnizorTara = 'Romania';
 const FurnizorJudet = 'B';
 const FurnizorAdresa = 'str. Zamora nr. 1, sector 4';
 
+const CONT_MARFA = 707;
+const CONT_PRODUSE = 7015;
+
 let dataPrimeiFacturi = '';
 let numarulPrimeiFacturi = '';
 
-fs.createReadStream(inputFile)
-    .pipe(parse({ delimiter: ',', from_line: 2 }))
-    .on('data', function (row) {
-        // Ordinea si semnificatia campurilor din CSV
+readXlsxFile('./input.xlsx').then(rows => {
+    for (let i = 1; i < rows.length; i++) {
         const [
             ClientCIF,
             FacturaNumar,
             _libraria,
-            data,
+            dataFactura,
             valoareMarfa,
             tvaMarfa,
             valoareProduse,
@@ -39,13 +39,13 @@ fs.createReadStream(inputFile)
             _totalTva,
             _total,
             ClientNume,
-        ] = row;
+        ] = rows[i];
 
         const lines = [];
 
         if (!!valoareMarfa && +valoareMarfa !== 0) {
             const Valoare = Math.round(valoareMarfa * 100) / 100;
-            const TVA = Math.round(Math.abs(tvaMarfa) * 100) / 100;
+            const TVA = Math.round(tvaMarfa * 100) / 100;
             lines.push({
                 LinieNrCrt: lines.length + 1,
                 Gestiune: [],
@@ -57,16 +57,16 @@ fs.createReadStream(inputFile)
                 InformatiiSuplimentare: [],
                 UM: 'Buc',
                 Cantitate: Math.sign(valoareMarfa), // Poate fi negativa
-                Pret: Math.abs(valoareMarfa), // '136.0000',
+                Pret: Math.round(Math.abs(valoareMarfa) * 10000) / 10000, // '136.0000',
                 Valoare, // '136.00',
                 ProcTVA: '19',
                 TVA, // "25.84"
-                Cont: '707'
+                Cont: CONT_MARFA
             });
         }
         if (!!valoareProduse && +valoareProduse !== 0) {
             const Valoare = Math.round(valoareProduse * 100) / 100;
-            const TVA = Math.round(Math.abs(tvaProduse) * 100) / 100;
+            const TVA = Math.round(tvaProduse * 100) / 100;
             lines.push({
                 LinieNrCrt: lines.length + 1,
                 Gestiune: [],
@@ -78,15 +78,15 @@ fs.createReadStream(inputFile)
                 InformatiiSuplimentare: [],
                 UM: 'Buc',
                 Cantitate: Math.sign(valoareProduse), // Poate fi negativa
-                Pret: Math.abs(valoareProduse), // '136.0000',
+                Pret: Math.round(Math.abs(valoareProduse) * 10000) / 10000, // '136.0000',
                 Valoare, // '136.00',
                 ProcTVA: '19',
                 TVA, // "25.84"
-                Cont: '7015'
+                Cont: CONT_PRODUSE
             });
         }
 
-        const FacturaData = moment(data, 'M/D/YYYY').format('DD-MM-YYYY');
+        const FacturaData = moment(dataFactura, 'DD/MM/YYYY').format('DD-MM-YYYY');
         dataPrimeiFacturi = dataPrimeiFacturi || FacturaData;
         numarulPrimeiFacturi = numarulPrimeiFacturi || FacturaNumar;
         const factura = {
@@ -133,16 +133,16 @@ fs.createReadStream(inputFile)
         };
 
         facturi.push(factura);
-    })
-    .on('end', function () {
-        const xml = js2xml({
-            _declaration: { _attributes: { version: '1.0' } },
-            Facturi: {
-                Factura: facturi
-            }
-        }, { compact: true, ignoreComment: true, spaces: 4 });
-        fs.writeFile(`./F_${FurnizorCIF}_${numarulPrimeiFacturi}_${dataPrimeiFacturi}.xml`, xml, (err) => {
-            if (err) return console.log(err);
-            console.log('File successfully processed!!!');
-        });
-    })
+    };
+
+    const xml = js2xml({
+        _declaration: { _attributes: { version: '1.0' } },
+        Facturi: {
+            Factura: facturi
+        }
+    }, { compact: true, ignoreComment: true, spaces: 4 });
+    fs.writeFile(`./F_${FurnizorCIF}_${numarulPrimeiFacturi}_${dataPrimeiFacturi}.xml`, xml, (err) => {
+        if (err) return console.log(err);
+        console.log('File successfully processed!!!');
+    });
+});
