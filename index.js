@@ -5,9 +5,22 @@ node index.js ./input.csv
 const fs = require('fs');
 const { parse } = require('csv-parse');
 const { js2xml } = require('xml-js');
+const moment = require('moment');
 
 const inputFile = process.argv[2];
 const facturi = [];
+
+// Date furnizor
+const FurnizorNume = 'TIPOGRAFIA 3B S.R.L.';
+const FurnizorCIF = '16203419';
+const FurnizorNrRegCom = 'J40/3451/2004';
+const FurnizorCapital = '1700';
+const FurnizorTara = 'Romania';
+const FurnizorJudet = 'B';
+const FurnizorAdresa = 'str. Zamora nr. 1, sector 4';
+
+let dataPrimeiFacturi = '';
+let numarulPrimeiFacturi = '';
 
 fs.createReadStream(inputFile)
     .pipe(parse({ delimiter: ',', from_line: 2 }))
@@ -17,7 +30,7 @@ fs.createReadStream(inputFile)
             ClientCIF,
             FacturaNumar,
             _libraria,
-            FacturaData,
+            data,
             valoareMarfa,
             tvaMarfa,
             valoareProduse,
@@ -31,8 +44,8 @@ fs.createReadStream(inputFile)
         const lines = [];
 
         if (!!valoareMarfa && +valoareMarfa !== 0) {
-            const Valoare = Math.round(Math.abs(+valoareMarfa) * 100) / 100;
-            const TVA = Math.round(Math.abs(+tvaMarfa) * 100) / 100;
+            const Valoare = Math.round(valoareMarfa * 100) / 100;
+            const TVA = Math.round(Math.abs(tvaMarfa) * 100) / 100;
             lines.push({
                 LinieNrCrt: lines.length + 1,
                 Gestiune: [],
@@ -43,8 +56,8 @@ fs.createReadStream(inputFile)
                 CodBare: [],
                 InformatiiSuplimentare: [],
                 UM: 'Buc',
-                Cantitate: !!valoareMarfa && +valoareMarfa >= 0 ? 1 : -1, // Poate fi negativa
-                Pret: Math.abs(+valoareMarfa), // '136.0000',
+                Cantitate: Math.sign(valoareMarfa), // Poate fi negativa
+                Pret: Math.abs(valoareMarfa), // '136.0000',
                 Valoare, // '136.00',
                 ProcTVA: '19',
                 TVA, // "25.84"
@@ -52,8 +65,8 @@ fs.createReadStream(inputFile)
             });
         }
         if (!!valoareProduse && +valoareProduse !== 0) {
-            const Valoare = Math.round(Math.abs(+valoareProduse) * 100) / 100;
-            const TVA = Math.round(Math.abs(+tvaProduse) * 100) / 100;
+            const Valoare = Math.round(valoareProduse * 100) / 100;
+            const TVA = Math.round(Math.abs(tvaProduse) * 100) / 100;
             lines.push({
                 LinieNrCrt: lines.length + 1,
                 Gestiune: [],
@@ -64,8 +77,8 @@ fs.createReadStream(inputFile)
                 CodBare: [],
                 InformatiiSuplimentare: [],
                 UM: 'Buc',
-                Cantitate: !!valoareProduse && +valoareProduse >= 0 ? 1 : -1, // Poate fi negativa
-                Pret: Math.abs(+valoareProduse), // '136.0000',
+                Cantitate: Math.sign(valoareProduse), // Poate fi negativa
+                Pret: Math.abs(valoareProduse), // '136.0000',
                 Valoare, // '136.00',
                 ProcTVA: '19',
                 TVA, // "25.84"
@@ -73,17 +86,20 @@ fs.createReadStream(inputFile)
             });
         }
 
+        const FacturaData = moment(data, 'M/D/YYYY').format('DD-MM-YYYY');
+        dataPrimeiFacturi = dataPrimeiFacturi || FacturaData;
+        numarulPrimeiFacturi = numarulPrimeiFacturi || FacturaNumar;
         const factura = {
             Antet: {
-                FurnizorNume: 'Cribo Grup SRL',
-                FurnizorCIF: 'RO15438697',
-                FurnizorNrRegCom: 'J40/6575/2003',
-                FurnizorCapital: '15000 LEI',
-                FurnizorTara: 'Romania',
-                FurnizorLocalitate: 'Romania',
-                FurnizorJudet: 'B',
-                FurnizorAdresa: 'str. Belizarie, nr. 23, Bl. 3/3, sc. A, et. 1, ap. 5, Sector 1',
-                FurnizorTelefon: '+40 722 707 707',
+                FurnizorNume,
+                FurnizorCIF,
+                FurnizorNrRegCom,
+                FurnizorCapital,
+                FurnizorTara,
+                FurnizorLocalitate: [],
+                FurnizorJudet,
+                FurnizorAdresa,
+                FurnizorTelefon: [],
                 FurnizorMail: [],
                 FurnizorBanca: [],
                 FurnizorIBAN: [],
@@ -125,7 +141,7 @@ fs.createReadStream(inputFile)
                 Factura: facturi
             }
         }, { compact: true, ignoreComment: true, spaces: 4 });
-        fs.writeFile('./output.xml', xml, (err) => {
+        fs.writeFile(`./F_${FurnizorCIF}_${numarulPrimeiFacturi}_${dataPrimeiFacturi}.xml`, xml, (err) => {
             if (err) return console.log(err);
             console.log('File successfully processed!!!');
         });
