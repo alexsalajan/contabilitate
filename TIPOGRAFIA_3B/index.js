@@ -18,8 +18,8 @@ const FurnizorTara = 'Romania';
 const FurnizorJudet = 'B';
 const FurnizorAdresa = 'str. Zamora nr. 1, sector 4';
 
-const CONT_MARFA = 707;
-const CONT_PRODUSE = 7015;
+const CONT_MARFA = '707';
+const CONT_PRODUSE = '7015';
 
 let dataPrimeiFacturi = '';
 let numarulPrimeiFacturi = '';
