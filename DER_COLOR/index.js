@@ -1,4 +1,5 @@
 /** **********************
+ * Se ruleaza folosind comanda:
 node index.js
 ************************** */
 
@@ -25,7 +26,11 @@ let dataPrimeiFacturi = '';
 let numarulPrimeiFacturi = '';
 
 readXlsxFile('./input.xlsx').then(rows => {
-    for (let i = 1; i < rows.length; i++) {
+    rows.shift();
+    rows.sort((a, b) => {
+        return a[1].localeCompare(b[1]);
+    })
+    for (let i = 0; i < rows.length; i++) {
         const [
             tip,
             FacturaNumar,

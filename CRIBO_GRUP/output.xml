@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Facturi>
+    <Factura>
+        <Antet>
+            <FurnizorNume>TIPOGRAFIA 3B S.R.L.</FurnizorNume>
+            <FurnizorCIF>16203419</FurnizorCIF>
+            <FurnizorNrRegCom>J40/3451/2004</FurnizorNrRegCom>
+            <FurnizorCapital>1700</FurnizorCapital>
+            <FurnizorTara>Romania</FurnizorTara>
+            <FurnizorJudet>B</FurnizorJudet>
+            <FurnizorAdresa>str. Zamora nr. 1, sector 4</FurnizorAdresa>
+            <ClientNume>COMPANIA DE LIBRARII S.A.</ClientNume>
+            <ClientCIF>361307</ClientCIF>
+            <FacturaNumar>20221041</FacturaNumar>
+            <FacturaData>01-06-2022</FacturaData>
+            <FacturaScadenta>01-06-2022</FacturaScadenta>
+            <FacturaTVAIncasare>NU</FacturaTVAIncasare>
+            <FacturaMoneda>RON</FacturaMoneda>
+        </Antet>
+        <Detalii>
+            <Continut>
+                <Linie>
+                    <LinieNrCrt>1</LinieNrCrt>
+                    <Descriere>PRODUSE</Descriere>
+                    <UM>Buc</UM>
+                    <Cantitate>1</Cantitate>
+                    <Pret>222.4</Pret>
+                    <Valoare>222.4</Valoare>
+                    <ProcTVA>19</ProcTVA>
+                    <TVA>42.26</TVA>
+                    <Cont>7015</Cont>
+                </Linie>
+            </Continut>
+        </Detalii>
+    </Factura>
+    <Factura>
+        <Antet>
+            <FurnizorNume>TIPOGRAFIA 3B S.R.L.</FurnizorNume>
+            <FurnizorCIF>16203419</FurnizorCIF>
+            <FurnizorNrRegCom>J40/3451/2004</FurnizorNrRegCom>
+            <FurnizorCapital>1700</FurnizorCapital>
+            <FurnizorTara>Romania</FurnizorTara>
+            <FurnizorJudet>B</FurnizorJudet>
+            <FurnizorAdresa>str. Zamora nr. 1, sector 4</FurnizorAdresa>
+            <ClientNume>COMPANIA DE LIBRARII S.A.</ClientNume>
+            <ClientCIF>361307</ClientCIF>
+            <FacturaNumar>20221042</FacturaNumar>
+            <FacturaData>01-06-2022</FacturaData>
+            <FacturaScadenta>01-06-2022</FacturaScadenta>
+            <FacturaTVAIncasare>NU</FacturaTVAIncasare>
+            <FacturaMoneda>RON</FacturaMoneda>
+        </Antet>
+        <Detalii>
+            <Continut>
+                <Linie>
+                    <LinieNrCrt>1</LinieNrCrt>
+                    <Descriere>MARFA</Descriere>
+                    <UM>Buc</UM>
+                    <Cantitate>1</Cantitate>
+                    <Pret>475</Pret>
+                    <Valoare>475</Valoare>
+                    <ProcTVA>19</ProcTVA>
+                    <TVA>90.25</TVA>
+                    <Cont>707</Cont>
+                </Linie>
+                <Linie>
+                    <LinieNrCrt>2</LinieNrCrt>
+                    <Descriere>PRODUSE</Descriere>
+                    <UM>Buc</UM>
+                    <Cantitate>1</Cantitate>
+                    <Pret>84</Pret>
+                    <Valoare>84</Valoare>
+                    <ProcTVA>19</ProcTVA>
+                    <TVA>15.96</TVA>
+                    <Cont>7015</Cont>
+                </Linie>
+            </Continut>
+        </Detalii>
+    </Factura>
+</Facturi>
