@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd DER_COLOR && node index.js && cd .. && cd TIPOGRAFIA_3B && node index.js && cd ..",
+    "start": "cd DER_COLOR && node index.js && cd .. && cd TIPOGRAFIA_3B && node index.js && cd .. && cd CRIBO_GRUP && node index.js && cd .. ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
