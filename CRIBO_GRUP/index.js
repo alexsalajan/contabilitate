@@ -13,15 +13,43 @@ const content = xml2json(
 
 const facturi = JSON.parse(content)['Facturi']['Factura'];
 
+const getCont = (linie) => {
+    let cont = '707.1';
+    if (!!linie['Descriere']?.['_text'] && (
+        linie['Descriere']['_text'].trim().toUpperCase() === 'TRANSPORT' ||
+        linie['Descriere']['_text'].trim().toUpperCase() === 'TAXA LIVRARE'
+    )) {
+        cont = '704';
+    }
+    if (!!linie['CotaTVA']?.['_text'] && (
+        linie['CotaTVA']['_text'].trim() === '0'
+    )) {
+        cont = '5328.EMAG';
+    }
+    return cont;
+}
+
 const FurnizorCIF = 'RO15438697'
 let dataPrimeiFacturi = '';
 let numarulPrimeiFacturi = '';
 facturi.forEach(factura => {
+    dataPrimeiFacturi = dataPrimeiFacturi || factura['Antet']['FacturaData']['_text'];
+    numarulPrimeiFacturi = numarulPrimeiFacturi || factura['Antet']['FacturaNumar']['_text'];
+
     if (!!factura?.['Antet']?.['ClientLocalitate']?.['_text']) {
         factura['Antet']['ClientLocalitate']['_text'] = factura['Antet']['ClientLocalitate']['_text'].toUpperCase().replace(/SECTOR(UL)?/, 'BUCURESTI SECTOR');
     }
-    dataPrimeiFacturi = dataPrimeiFacturi || factura['Antet']['FacturaData']['_text'];
-    numarulPrimeiFacturi = numarulPrimeiFacturi || factura['Antet']['FacturaNumar']['_text'];
+
+    if (!!factura?.['Detalii']?.['Continut']?.['Linie']) {
+        if (Array.isArray(factura['Detalii']['Continut']['Linie'])) {
+            factura['Detalii']['Continut']['Linie'].forEach(linie => {
+                linie['Cont'] = { _text: getCont(linie) };
+            });
+        } else {
+            const linie = factura['Detalii']['Continut']['Linie']
+            linie['Cont'] = { _text: getCont(linie) };
+        }
+    }
 });
 
 const xml = js2xml({
