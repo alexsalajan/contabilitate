@@ -38,6 +38,7 @@ readXlsxFile('./input.xlsx').then(rows => {
             ClientNume,
             ClientCIF,
             _tvai,
+            _is_ef,
             dataFactura,
             scadentaFactura,
             _nr_bonuri,
