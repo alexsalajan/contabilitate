@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.29.3",
+    "moment": "^2.29.4",
     "read-excel-file": "^5.3.4",
     "xml-js": "^1.6.11"
   }
