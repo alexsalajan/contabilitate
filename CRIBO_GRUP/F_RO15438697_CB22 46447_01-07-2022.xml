@@ -610,7 +610,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Nova Lenti Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 15034400</ClientCIF>
+            <ClientCIF>RO15034400</ClientCIF>
             <ClientNrRegCom>J40/11981/2002</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Tunari, Nr.81, Ap.3</ClientAdresa>
@@ -727,7 +727,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume/>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 5175054</ClientCIF>
+            <ClientCIF>RO5175054</ClientCIF>
             <ClientNrRegCom>J40/1620/1994</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 Str. Gheorghe Polizu, Nr.58-60, Etaj 5, 10 Si 11</ClientAdresa>
@@ -827,7 +827,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Aspect Tehnic Grup Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 26487040</ClientCIF>
+            <ClientCIF>RO26487040</ClientCIF>
             <ClientNrRegCom>J23/398/2010</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Pantelimon  Pantelimon Str. Livezilor, Nr.13, Bl.h, Sc.1, Et.2, Ap.9</ClientAdresa>
@@ -1225,7 +1225,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Mediteranean Food Concept S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 41930329</ClientCIF>
+            <ClientCIF>RO41930329</ClientCIF>
             <ClientNrRegCom>J22/3565/2019</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Ciurea  Ciurea Nr. Cadastral 62520</ClientAdresa>
@@ -1495,6 +1495,7 @@
             <FacturaID>5042635</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -2171,7 +2172,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>At Automatic Management Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 32228016</ClientCIF>
+            <ClientCIF>RO32228016</ClientCIF>
             <ClientNrRegCom>J40/11259/2013</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Elev Stefan Stefanescu, Nr.1, Bl.443, Sc.1, Et.9, Ap.38</ClientAdresa>
@@ -2552,7 +2553,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Cosmo Pharm Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 6058303</ClientCIF>
+            <ClientCIF>RO6058303</ClientCIF>
             <ClientNrRegCom>J40/15215/1994</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Calea Calarasilor, Nr.5, Bl.103, Sc.3, Et.7, Ap.74</ClientAdresa>
@@ -2986,7 +2987,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Lis Business Solutions Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 30870850</ClientCIF>
+            <ClientCIF>RO30870850</ClientCIF>
             <ClientNrRegCom>J40/12949/2012</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 B-dul Aerogarii, Nr.30, Ap.1</ClientAdresa>
@@ -4380,6 +4381,7 @@
             <FacturaID>5069173</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -4492,7 +4494,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Technical Services Group - Tsg Romania S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 5129660</ClientCIF>
+            <ClientCIF>RO5129660</ClientCIF>
             <ClientNrRegCom>J40/223/1994</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 6 Str. Valea Oltului, Nr.73-75</ClientAdresa>
@@ -4777,7 +4779,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Ambro Logistic S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 20914525</ClientCIF>
+            <ClientCIF>RO20914525</ClientCIF>
             <ClientNrRegCom>J40/1913/2007</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Agricultori, Nr.88a, Bl.corp B, Et.p</ClientAdresa>
@@ -5522,7 +5524,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Tehnoserv S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 16509176</ClientCIF>
+            <ClientCIF>RO16509176</ClientCIF>
             <ClientNrRegCom>J37/411/2004</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Vaslui Str. Stefan Cel Mare, Bl.331, Sc.b, Et.1, Ap.4</ClientAdresa>
@@ -5871,7 +5873,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Kronect Comunicatii Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 15282201</ClientCIF>
+            <ClientCIF>RO15282201</ClientCIF>
             <ClientNrRegCom>J23/99/2013</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Tunari  Tunari Str. 1 Decembrie, Nr.136, Bl.vila 1012/5</ClientAdresa>
@@ -5971,7 +5973,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>First Team Telecom Solutions Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 33608870</ClientCIF>
+            <ClientCIF>RO33608870</ClientCIF>
             <ClientNrRegCom>J40 /10936 /2014</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 Str. Telega, Nr.6, Tronson C, Camera 1, Et.8, Ap.60</ClientAdresa>
@@ -6137,7 +6139,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Prime Telecom Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 13506450</ClientCIF>
+            <ClientCIF>RO13506450</ClientCIF>
             <ClientNrRegCom>J40/10171/2000</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 B-dul Lascar Catargiu, Nr.34</ClientAdresa>
@@ -6899,7 +6901,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Ascensorul Romservice Company S.a.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 7630585</ClientCIF>
+            <ClientCIF>RO7630585</ClientCIF>
             <ClientNrRegCom>J40/6732/1995</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Prof. Mitrita Constantinescu, Nr.6</ClientAdresa>
@@ -7563,6 +7565,7 @@
             <FacturaID>5526613</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -8122,7 +8125,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>A.b. Industries S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 24624591</ClientCIF>
+            <ClientCIF>RO24624591</ClientCIF>
             <ClientNrRegCom>J23/3272/2008</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Rosu  Chiajna Str. Pescarusului, Nr.18</ClientAdresa>
@@ -8388,7 +8391,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Coman Product Filiala Bucuresti Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 14962811</ClientCIF>
+            <ClientCIF>RO14962811</ClientCIF>
             <ClientNrRegCom>J23/772/2004</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Voluntari Bld. Pipera, Nr.1h, Bl.lot 3</ClientAdresa>
@@ -9680,7 +9683,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>General Data Install S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 43456761</ClientCIF>
+            <ClientCIF>RO43456761</ClientCIF>
             <ClientNrRegCom>J40/17371/2020</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Lt. Petre Negulescu, Nr.39, Camera 3</ClientAdresa>
@@ -9914,7 +9917,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>General Data Install S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 43456761</ClientCIF>
+            <ClientCIF>RO43456761</ClientCIF>
             <ClientNrRegCom>J40/17371/2020</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Lt. Petre Negulescu, Nr.39, Camera 3</ClientAdresa>
@@ -10082,6 +10085,7 @@
             <FacturaID>5532842</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -10745,6 +10749,7 @@
             <FacturaID>5533855</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -11587,7 +11592,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Arcade Doors Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 13893837</ClientCIF>
+            <ClientCIF>RO13893837</ClientCIF>
             <ClientNrRegCom>J40/4929/2001</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 B-dul Mircea Eliade, Nr.18, Et.5</ClientAdresa>
@@ -11687,7 +11692,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Horus Center Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 15744890</ClientCIF>
+            <ClientCIF>RO15744890</ClientCIF>
             <ClientNrRegCom>J03/1207/2003</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Valea Ursului  Bascov Nr.18</ClientAdresa>
@@ -12368,7 +12373,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Computer Solutions Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 15462920</ClientCIF>
+            <ClientCIF>RO15462920</ClientCIF>
             <ClientNrRegCom>J40/7045/2003</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Barbu Vacarescu, Nr.162, Corp A, Camera 2, Et.4</ClientAdresa>
@@ -13577,7 +13582,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Video Technic Systems Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 33772244</ClientCIF>
+            <ClientCIF>RO33772244</ClientCIF>
             <ClientNrRegCom>J40/12915/2014</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Silozului, Nr.19, Et.3</ClientAdresa>
@@ -13643,7 +13648,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>First Team Telecom Solutions Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 33608870</ClientCIF>
+            <ClientCIF>RO33608870</ClientCIF>
             <ClientNrRegCom>J40 /10936 /2014</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 Str. Telega, Nr.6, Tronson C, Camera 1, Et.8, Ap.60</ClientAdresa>
@@ -14028,6 +14033,7 @@
             <FacturaID>5551691</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -14725,6 +14731,7 @@
             <FacturaID>5563613</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -14956,6 +14963,7 @@
             <FacturaID>5563637</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -16198,7 +16206,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Blue Volt Systems Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 35970086</ClientCIF>
+            <ClientCIF>RO35970086</ClientCIF>
             <ClientNrRegCom>J40/5675/2016</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Elbrus, Nr.11, C1, Camera 1</ClientAdresa>
@@ -17292,7 +17300,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Eneroptim Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 13726065</ClientCIF>
+            <ClientCIF>RO13726065</ClientCIF>
             <ClientNrRegCom>J40/1994/2001</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Calea Vitan, Nr.289</ClientAdresa>
@@ -17492,7 +17500,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Koding Technology Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 33811173</ClientCIF>
+            <ClientCIF>RO33811173</ClientCIF>
             <ClientNrRegCom>J40/13393/2014</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 6 Str. Dr. Ernest Djuvara, Nr.14, Mansarda</ClientAdresa>
@@ -17758,7 +17766,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Izi Electronics Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 23031049</ClientCIF>
+            <ClientCIF>RO23031049</ClientCIF>
             <ClientNrRegCom>J30/29/2008</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Satu-mare Bld. Ion C. Bratianu, Nr.4, Ap.5</ClientAdresa>
@@ -18222,7 +18230,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Plan Services Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 14777741</ClientCIF>
+            <ClientCIF>RO14777741</ClientCIF>
             <ClientNrRegCom>J04/500/2002</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Bacau Cal. Romanului, Nr.5</ClientAdresa>
@@ -18388,7 +18396,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Alfos Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 15260041</ClientCIF>
+            <ClientCIF>RO15260041</ClientCIF>
             <ClientNrRegCom>J12/526/2003</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Cluj-napoca Str. Malinului, Nr.16</ClientAdresa>
@@ -18686,7 +18694,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Sc Class It Hardware Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 18806262</ClientCIF>
+            <ClientCIF>RO18806262</ClientCIF>
             <ClientNrRegCom>J40/10560/2006</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 4 Str. Democratiei, Nr.4, Bl.8, Sc.2, Et.7, Ap.72, Cam 5</ClientAdresa>
@@ -18752,7 +18760,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Proactiv It S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 32161730</ClientCIF>
+            <ClientCIF>RO32161730</ClientCIF>
             <ClientNrRegCom>J23/373/2021</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Popesti-leordeni Str. Amurgului, Nr.73h, Parter, Camera Nr. 1, Bl.1, Ap.2</ClientAdresa>
@@ -19686,7 +19694,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Diplomatic Telecom S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 3743107</ClientCIF>
+            <ClientCIF>RO3743107</ClientCIF>
             <ClientNrRegCom>J40 /31589 /1992</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Aurel Vlaicu, Nr.147, Bl.20, Et.p, Ap.4</ClientAdresa>
@@ -19852,7 +19860,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Enevo Group Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 33110123</ClientCIF>
+            <ClientCIF>RO33110123</ClientCIF>
             <ClientNrRegCom>J40/5153/2014</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Barbu Vacarescu, Nr.301-311, Et.11</ClientAdresa>
@@ -19918,7 +19926,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Argema Srl-d</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 35773190</ClientCIF>
+            <ClientCIF>RO35773190</ClientCIF>
             <ClientNrRegCom>J40/3504/2016</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 6 Str. Drumul Taberei, Nr.183, Camera 4, Bl.715, Sc.b, Et.10, Ap.60</ClientAdresa>
@@ -20001,7 +20009,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Optimum Prod. Import Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 9113852</ClientCIF>
+            <ClientCIF>RO9113852</ClientCIF>
             <ClientNrRegCom>J40/498/1997</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Soltuzului, Nr.40, Camerele 4, 5, 7</ClientAdresa>
@@ -22393,6 +22401,7 @@
             <FacturaID>5596543</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -22607,6 +22616,7 @@
             <FacturaID>5596776</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -23051,7 +23061,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Argema Srl-d</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 35773190</ClientCIF>
+            <ClientCIF>RO35773190</ClientCIF>
             <ClientNrRegCom>J40/3504/2016</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 6 Str. Drumul Taberei, Nr.183, Camera 4, Bl.715, Sc.b, Et.10, Ap.60</ClientAdresa>
@@ -23332,7 +23342,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Blue Volt Systems Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 35970086</ClientCIF>
+            <ClientCIF>RO35970086</ClientCIF>
             <ClientNrRegCom>J40/5675/2016</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Elbrus, Nr.11, C1, Camera 1</ClientAdresa>
@@ -23415,7 +23425,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Blue Volt Systems Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 35970086</ClientCIF>
+            <ClientCIF>RO35970086</ClientCIF>
             <ClientNrRegCom>J40/5675/2016</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Elbrus, Nr.11, C1, Camera 1</ClientAdresa>
@@ -23498,7 +23508,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Bebetei Investments Group Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 32742199</ClientCIF>
+            <ClientCIF>RO32742199</ClientCIF>
             <ClientNrRegCom>J40/1218/2014</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 B-dul Lacul Tei, Nr.62, Parter, Camera 2</ClientAdresa>
@@ -23734,6 +23744,7 @@
             <FacturaID>5599703</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -24263,7 +24274,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>All4instalatii S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 40969096</ClientCIF>
+            <ClientCIF>RO40969096</ClientCIF>
             <ClientNrRegCom>J23/1688/2019</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Popesti-leordeni Sos.  De Centura, Nr.103, Corp Administrativ 2, Parter, Biroul 1</ClientAdresa>
@@ -24876,7 +24887,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Computing Technology Business Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 26315819</ClientCIF>
+            <ClientCIF>RO26315819</ClientCIF>
             <ClientNrRegCom>J40/11693/2009</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Pictor Vermont, Nr.7, Et.p, Ap.1,cam.nr.4</ClientAdresa>
@@ -25110,6 +25121,7 @@
             <FacturaID>5601132</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -25422,7 +25434,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Optimum Prod. Import Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 9113852</ClientCIF>
+            <ClientCIF>RO9113852</ClientCIF>
             <ClientNrRegCom>J40/498/1997</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Soltuzului, Nr.40, Camerele 4, 5, 7</ClientAdresa>
@@ -26652,6 +26664,7 @@
             <FacturaID>5602847</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -26781,7 +26794,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Vm Sisteme Telecom S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 17370105</ClientCIF>
+            <ClientCIF>RO17370105</ClientCIF>
             <ClientNrRegCom>J40/5125/2005</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 5 Str. Dobrun, Nr.4, Bl.m57, Sc.2, Et.3, Ap.77</ClientAdresa>
@@ -27002,6 +27015,7 @@
             <FacturaID>5603406</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -27067,6 +27081,7 @@
             <FacturaID>5603556</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -27279,7 +27294,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Plan Services Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 14777741</ClientCIF>
+            <ClientCIF>RO14777741</ClientCIF>
             <ClientNrRegCom>J04/500/2002</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Bacau Cal. Romanului, Nr.5</ClientAdresa>
@@ -28043,7 +28058,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Valdi Sistem S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 15121230</ClientCIF>
+            <ClientCIF>RO15121230</ClientCIF>
             <ClientNrRegCom>J40 /259 /2003</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 6 Calea Crangasi, Nr.18, Bl.42, Sc.1, Et.1, Ap.4</ClientAdresa>
@@ -28194,6 +28209,7 @@
             <FacturaID>5605657</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -29055,6 +29071,7 @@
             <FacturaID>5645872</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -29169,7 +29186,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Ferroli - Romania Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 11252950</ClientCIF>
+            <ClientCIF>RO11252950</ClientCIF>
             <ClientNrRegCom>J40/11786/1998</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>B-dul Timisoara, Nr.104e</ClientAdresa>
@@ -29369,7 +29386,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Brammer Romania  Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 33738900</ClientCIF>
+            <ClientCIF>RO33738900</ClientCIF>
             <ClientNrRegCom>J12/1753/2016</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Bld. Muncii, Nr.257</ClientAdresa>
@@ -29750,7 +29767,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Spiact Craiova S.a.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 14452049</ClientCIF>
+            <ClientCIF>RO14452049</ClientCIF>
             <ClientNrRegCom>J16/81/2002</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Craiova Aleea 1 Depoului, Nr.10</ClientAdresa>
@@ -30497,7 +30514,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Zag Tehnic Avi S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 40205153</ClientCIF>
+            <ClientCIF>RO40205153</ClientCIF>
             <ClientNrRegCom>J40/16882/2018</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Ramnicu Valcea, Nr.7, Parter, Bl.s35a, Sc.1, Ap.4</ClientAdresa>
@@ -30629,7 +30646,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Austing Com Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 7352870</ClientCIF>
+            <ClientCIF>RO7352870</ClientCIF>
             <ClientNrRegCom>J40/3810/1995</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Nita Elinescu, Nr.57</ClientAdresa>
@@ -30880,7 +30897,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Ambro Logistic S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 20914525</ClientCIF>
+            <ClientCIF>RO20914525</ClientCIF>
             <ClientNrRegCom>J40/1913/2007</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Agricultori, Nr.88a, Bl.corp B, Et.p</ClientAdresa>
@@ -31029,7 +31046,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Software Si Echipamente Electronice Pentru Dezvoltare (seed) S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 1566483</ClientCIF>
+            <ClientCIF>RO1566483</ClientCIF>
             <ClientNrRegCom>J40/6093/1991</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 Str. Athanasie Enescu, Nr.2</ClientAdresa>
@@ -33517,6 +33534,7 @@
             <FacturaID>5653889</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -33646,7 +33664,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Vist Instal Solutions S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 40758404</ClientCIF>
+            <ClientCIF>RO40758404</ClientCIF>
             <ClientNrRegCom>J23/1084/2019</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Popesti-leordeni Str. Amurgului, Nr.26, Constructia C1, Bl.1, Sc.a, Et.4, Ap.34</ClientAdresa>
@@ -34131,7 +34149,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Zag Tehnic Avi S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 40205153</ClientCIF>
+            <ClientCIF>RO40205153</ClientCIF>
             <ClientNrRegCom>J40/16882/2018</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Ramnicu Valcea, Nr.7, Parter, Bl.s35a, Sc.1, Ap.4</ClientAdresa>
@@ -34329,7 +34347,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Romitaldo Import Export Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 3270130</ClientCIF>
+            <ClientCIF>RO3270130</ClientCIF>
             <ClientNrRegCom>J40/22112/1992</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 B-dul Ferdinand I, Nr.123, Bl.g3, Sc.7, Et.3, Ap.13</ClientAdresa>
@@ -34529,7 +34547,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Class It Outsourcing Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 14080786</ClientCIF>
+            <ClientCIF>RO14080786</ClientCIF>
             <ClientNrRegCom>J40 /6738 /2001</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 1 Calea Victoriei, Nr.208, Et.1, Ap.5</ClientAdresa>
@@ -35325,7 +35343,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Antech Consulting Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 16974618</ClientCIF>
+            <ClientCIF>RO16974618</ClientCIF>
             <ClientNrRegCom>J23 /1792 /2004</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Voluntari  Voluntari Str. Potcoavei, Nr.48/12 Lot2</ClientAdresa>
@@ -36319,7 +36337,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Romaudiovideo Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 1572736</ClientCIF>
+            <ClientCIF>RO1572736</ClientCIF>
             <ClientNrRegCom>J23/713/2012</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Moara Vlasiei  Moara Vlasiei Sos. Eroilor, Nr.154</ClientAdresa>
@@ -36621,6 +36639,7 @@
             <FacturaID>5665128</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -36754,6 +36773,7 @@
             <FacturaID>5665179</FacturaID>
             <FacturaCotaTVA>0%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -37083,7 +37103,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Global Solutions Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 17794500</ClientCIF>
+            <ClientCIF>RO17794500</ClientCIF>
             <ClientNrRegCom>J36/425/2005</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Tulcea Str. Ion Nenitescu, Nr.44</ClientAdresa>
@@ -37149,7 +37169,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Transurb Sa</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 10890801</ClientCIF>
+            <ClientCIF>RO10890801</ClientCIF>
             <ClientNrRegCom>J17/684/1998</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Galati Bld. George Cosbuc, Nr.259, Lot2/1</ClientAdresa>
@@ -39305,6 +39325,7 @@
             <FacturaID>5667623</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -39351,7 +39372,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Bebetei Investments Group Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 32742199</ClientCIF>
+            <ClientCIF>RO32742199</ClientCIF>
             <ClientNrRegCom>J40/1218/2014</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 B-dul Lacul Tei, Nr.62, Parter, Camera 2</ClientAdresa>
@@ -40083,7 +40104,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Spring Media Events S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 42298523</ClientCIF>
+            <ClientCIF>RO42298523</ClientCIF>
             <ClientNrRegCom>J23/865/2020</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sat Cretesti  Vidra Str. Zorilor, Nr.13</ClientAdresa>
@@ -40679,7 +40700,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Austing Com Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 7352870</ClientCIF>
+            <ClientCIF>RO7352870</ClientCIF>
             <ClientNrRegCom>J40/3810/1995</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 3 Str. Nita Elinescu, Nr.57</ClientAdresa>
@@ -40947,6 +40968,7 @@
             <FacturaID>5671433</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -41340,7 +41362,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Mc Media Consulting Services S.r.l.</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 39157486</ClientCIF>
+            <ClientCIF>RO39157486</ClientCIF>
             <ClientNrRegCom>J40/4866/2018</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 2 Str. Rascoala 1907, Nr.15, Bl.31, Sc.2, Et.2, Ap.36</ClientAdresa>
@@ -41425,6 +41447,7 @@
             <FacturaID>5672272</FacturaID>
             <FacturaCotaTVA>19%</FacturaCotaTVA>
             <FacturaGreutate/>
+            <ClientJudet>B</ClientJudet>
         </Antet>
         <Detalii>
             <Continut>
@@ -41471,7 +41494,7 @@
             <FurnizorInformatiiSuplimentare/>
             <ClientNume>Infotel Systems Srl</ClientNume>
             <ClientInformatiiSuplimentare/>
-            <ClientCIF>RO 27505080</ClientCIF>
+            <ClientCIF>RO27505080</ClientCIF>
             <ClientNrRegCom>J40/9743/2010</ClientNrRegCom>
             <ClientTara>Romania</ClientTara>
             <ClientAdresa>Sector 6 Str. Gabriel Cioran, Nr.6, Et.2, Ap.8</ClientAdresa>

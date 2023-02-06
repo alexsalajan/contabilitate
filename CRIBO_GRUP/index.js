@@ -36,6 +36,14 @@ facturi.forEach(factura => {
     dataPrimeiFacturi = dataPrimeiFacturi || factura['Antet']['FacturaData']['_text'];
     numarulPrimeiFacturi = numarulPrimeiFacturi || factura['Antet']['FacturaNumar']['_text'];
 
+    if (!!factura?.['Antet']?.['ClientCIF']?.['_text']) {
+        factura['Antet']['ClientCIF']['_text'] = factura['Antet']['ClientCIF']['_text'].replace(/ /g, '');
+    }
+
+    if (!factura?.['Antet']?.['ClientJudet']?.['_text']) {
+        factura['Antet']['ClientJudet'] = {'_text': 'B'};
+    }
+
     if (!!factura?.['Antet']?.['ClientLocalitate']?.['_text']) {
         factura['Antet']['ClientLocalitate']['_text'] = factura['Antet']['ClientLocalitate']['_text'].toUpperCase().replace(/SECTOR(UL)?/, 'BUCURESTI SECTOR');
     }
