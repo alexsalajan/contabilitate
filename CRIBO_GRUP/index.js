@@ -48,6 +48,10 @@ facturi.forEach(factura => {
         factura['Antet']['ClientLocalitate']['_text'] = factura['Antet']['ClientLocalitate']['_text'].toUpperCase().replace(/SECTOR(UL)?/, 'BUCURESTI SECTOR');
     }
 
+    if (!!factura?.['Antet']?.['ClientAdresa']?.['_text']) {
+        factura['Antet']['ClientAdresa']['_text'] = factura['Antet']['ClientAdresa']['_text'].substring(0, 70);
+    }
+
     if (!!factura?.['Detalii']?.['Continut']?.['Linie']) {
         if (Array.isArray(factura['Detalii']['Continut']['Linie'])) {
             factura['Detalii']['Continut']['Linie'].forEach(linie => {
