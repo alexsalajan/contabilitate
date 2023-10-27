@@ -24,7 +24,7 @@ const getCont = (linie) => {
     if (!!linie['CotaTVA']?.['_text'] && (
         linie['CotaTVA']['_text'].trim() === '0'
     )) {
-        cont = '5328.EMAG';
+        cont = '5328.EMAGRO';
     }
     return cont;
 }
